@@ -1,0 +1,161 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+.hero,
+.footer{
+    background-color: #1F2937;
+}
+
+.hero{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+    
+}
+.hero-info{
+    
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex: 1;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.secondary-text,
+a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-info-left{
+    max-width: 400px;
+}
+.hero-info-right img{
+    width: 400px;
+}
+
+.header{
+   
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.sign-up-btn{
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    color: #F9FAF8;
+    padding: 0;
+    border: none;
+}
+
+
+
+
+
+#info{
+    min-height: 700px;
+    text-align: center;
+    padding: 10px;
+    
+}
+#info h2{
+    font-size: 36px;
+    font-weight: 800;
+    columns: #1f2937;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 300px;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    border: #3882F6 solid;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box-wrapper{
+    width: 300px;
+    word-wrap: break-word;
+}
+
+#quote-section{
+    min-height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+#quote-section p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 60%;
+}
+#quote-section strong{
+    align-self: flex-end;
+    padding-bottom: 100px;
+}
+
+
+#sign-up{
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal{
+    border-radius: 30px;
+    width: 1000px;
+    height: 200px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+.right-content .sign-up-btn{
+    border: white solid 3px;
+}
+
+
+.footer{
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
